@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RPSLS</string>
+
+    <string name="first_user">First User</string>
+    <string name="second_user">Second User</string>
+
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="lizard">Lizard</string>
+    <string name="spock">Spock</string>
+
+    <string name="start">Start!</string>
+    <string name="winner">Winner is:</string>
+</resources>

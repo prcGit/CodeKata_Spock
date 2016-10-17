@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vikkivikki666.rpsls.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/one_side_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/first_user"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:id="@+id/btn_rock_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rock"/>
+
+            <Button
+                android:id="@+id/btn_paper_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paper"/>
+
+            <Button
+                android:id="@+id/btn_scissors_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scissors"/>
+
+            <Button
+                android:id="@+id/btn_lizard_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lizard"/>
+
+            <Button
+                android:id="@+id/btn_spock_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spock"/>
+
+            <TextView
+                android:id="@+id/first_choise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/second_side_buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/second_user"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_rock_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rock"/>
+
+            <Button
+                android:id="@+id/btn_paper_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paper"/>
+
+            <Button
+                android:id="@+id/btn_scissors_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/scissors"/>
+
+            <Button
+                android:id="@+id/btn_lizard_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lizard"/>
+
+            <Button
+                android:id="@+id/btn_spock_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spock"/>
+
+            <TextView
+                android:id="@+id/second_choise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"/>
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
