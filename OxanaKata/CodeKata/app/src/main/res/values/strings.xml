@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CodeKata</string>
+
+
+
+    <string name="result_scissors_vins_lizars">Scissors decapitate lizard</string>
+    <string name="result_scissors_vins_paper"> Scissors cut paper</string>
+
+    <string name="result_paper_vins_rock">Paper covers rock</string>
+    <string name="result_paper_vins_spock">Paper disproves Spock</string>
+
+
+    <string name="result_rock_vins_lizard">Rock crushes lizard</string>
+    <string name="result_rock_vins_scissors">  Rock breaks scissors</string>
+
+
+    <string name="result_spock_vins_rock"> Spock vaporizes rock</string>
+    <string name="result_spock_vins_scissors">Spock smashes scissors</string>
+
+    <string name="result_lizard_vins_spock"> Lizard poisons Spock</string>
+    <string name="result_lizard_vins_paper">Lizard eats paper</string>
+
+
+
+</resources>
