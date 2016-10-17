@@ -112,9 +112,9 @@ public class MainActivity extends AppCompatActivity {
             }
             if (first != null & second != null) {
                 setResult();
+            }else{
+                result.setText("");
             }
-
-
         }
     }
 }

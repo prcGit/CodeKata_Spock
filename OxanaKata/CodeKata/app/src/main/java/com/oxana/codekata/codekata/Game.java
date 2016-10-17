@@ -80,7 +80,10 @@ public class Game {
 
     public String defineResult(int firstPlayerChoice, int secondPlayerChoice) {
 
-
-        return results.get(firstPlayerChoice).getResult(secondPlayerChoice);
+String res =  results.get(firstPlayerChoice).getResult(secondPlayerChoice);
+        if(res==null||res.length()==0){
+             res="DRAW";
+        }
+        return res;
     }
 }
